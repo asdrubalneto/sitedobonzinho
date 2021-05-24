@@ -8,15 +8,10 @@ function carregar() {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-    var dia = data.getday()
-    var date = data.getDate()
-    var mes = data.getMonth()
-    var ano = data.getFullYear()
-    var minuto = data.getMinutes()
-    var segundo = data.getSeconds()
+  
     
     
-    msg.innerHTML = `Hoje é dia ${dia} do ${mes} de ${anos} e agora são ${hora}:${minuto}:${segundo}`
+    msg.innerHTML = `Agora são ${hora} horas`
     if (hora >= 0 && hora <12){
         //Bom dia!
         img.src = 'solnasc.jpg'
