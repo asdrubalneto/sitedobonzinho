@@ -15,7 +15,7 @@ Tudo sobre o mundo do Bonzinho.
     </header>
     <section>
         <div id="msg">
-            Aqui vão aparecer a data e horário atuais!
+            Aqui vai aparecer a hora atual!
 
         </div>
         <div id="foto">
